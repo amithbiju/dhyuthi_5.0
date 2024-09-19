@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import file from "../assets/images/file.jpg";
 
 export const Fotter = () => {
   return (
@@ -6,11 +8,20 @@ export const Fotter = () => {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
-            href="https://flowbite.com/"
+            href="#"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img src="#" className="h-8" alt="Logo here" />
-            <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+            <Image
+              src={file}
+              alt=""
+              loading="lazy"
+              width="45"
+              height="45"
+              decoding="async"
+              data-nimg="1"
+              className=" object-contain rounded-md"
+            />
+            <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#8ef285] via-[#22ff05] to-[#095802] bg-clip-text text-transparent">
               Dhyuthi 5.0
             </button>
           </a>

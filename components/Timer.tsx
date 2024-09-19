@@ -69,9 +69,9 @@ export const Timer = () => {
       </div>
 
       <div className="mt-8 text-center">
-        <p className="uppercase text-xs sm:text-sm md:text-base">Venue:</p>
-        <p className="text-sm sm:text-base md:text-lg lg:text-xl">
-          Sree Chitra Thirunal College of Engineering
+        {/*<p className="uppercase text-xs sm:text-sm md:text-base">Venue:</p>*/}
+        <p className="text-sm sm:text-base bg-gradient-to-r from-[#8ef285] via-[#22ff05] to-[#095802] bg-clip-text text-transparent md:text-lg lg:text-xl">
+          Tag line of dhyuthi here!!
         </p>
       </div>
     </div>
