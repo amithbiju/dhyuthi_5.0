@@ -2,13 +2,25 @@
 
 import React, { useEffect, useState } from "react";
 
-export const Timer = () => {
-  const calculateTimeLeft = () => {
-    const eventDate = new Date("2024-10-12T00:00:00"); // Replace with your event date
-    const now = new Date();
-    const difference = eventDate - now;
+interface TimeLeft {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+}
 
-    let timeLeft = {};
+export const Timer = () => {
+  const calculateTimeLeft = (): TimeLeft => {
+    const eventDate: Date = new Date("2024-10-04T00:00:00"); // Replace with your event date
+    const now: Date = new Date();
+    const difference: number = eventDate.getTime() - now.getTime(); // Use getTime() to get the timestamp in milliseconds
+
+    let timeLeft: TimeLeft = {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+    };
 
     if (difference > 0) {
       timeLeft = {
@@ -22,15 +34,21 @@ export const Timer = () => {
     return timeLeft;
   };
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(null);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    setTimeLeft(calculateTimeLeft());
+    const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
 
     return () => clearTimeout(timer);
-  });
+  }, []);
+
+  if (!timeLeft) {
+    // Render nothing until the client has mounted
+    return null;
+  }
 
   return (
     <div className="h-screen flex flex-col items-center justify-center  text-white font-mono p-4">
