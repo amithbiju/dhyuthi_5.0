@@ -88,8 +88,8 @@ export const Timer = () => {
 
       <div className="mt-8 text-center">
         {/*<p className="uppercase text-xs sm:text-sm md:text-base">Venue:</p>*/}
-        <p className="text-sm sm:text-base bg-gradient-to-r from-[#8ef285] via-[#22ff05] to-[#095802] bg-clip-text text-transparent md:text-lg lg:text-xl">
-          Tag line of dhyuthi here!!
+        <p className="text-sm sm:text-base bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent md:text-lg lg:text-xl">
+          Fostering collaboration - innovation - diverse activities
         </p>
       </div>
     </div>

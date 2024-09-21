@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import file from "../assets/images/file.jpg";
+import logo from "../assets/images/logo.png";
 //hidden md:block
 const About = () => {
-  const about_event = `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eu`;
+  const about_event = `Dhyuthi, the flagship event of IEEE SCT SB, is back for its 5th edition after a one-year hiatus. This highly anticipated event will feature three distinct tracks that delve into relevant topics and showcase technologies with significant growth potential, offering participants a chance to explore cutting-edge advancements in various fields. Dhyuthi is designed to provide a rich experience, packed with technical workshops where attendees can gain hands-on skills as well as participate in competitions that encourage innovation and teamwork. Dhyuthi 5.0 fosters collaboration and innovation, offering diverse activities that promote personal growth and academic discourse, solidifying its status as a highly anticipated IEEE event.`;
   return (
     <section className="padding pt-12">
       <section
@@ -12,7 +12,7 @@ const About = () => {
       >
         <div className="flex-1 flex justify-center items-center ">
           <Image
-            src={file}
+            src={logo}
             alt=""
             loading="lazy"
             width="350"
@@ -30,7 +30,7 @@ const About = () => {
             {about_event}
           </p>
           <div className="flex-1 flex justify-center items-center ">
-            <h2 className="font-palanquin text-4xl mb-10 font-bold bg-gradient-to-r from-[#8ef285] via-[#22ff05] to-[#095802] bg-clip-text text-transparent lg:max-w-lg">
+            <h2 className="font-palanquin text-4xl mb-10 font-bold bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent lg:max-w-lg">
               October 13 | 14 | 15
             </h2>
           </div>

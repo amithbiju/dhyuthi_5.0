@@ -9,8 +9,9 @@ export default function Home() {
     <div>
       <Hero />
       <About />
-      <Event />
       <Timer />
+      <Event />
+
       <Venue />
     </div>
   );

@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 export const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="bg-neutral-900 fixed w-full z-50">
+    <header className="bg-neutral-900 bg-opacity-50 fixed w-full z-50">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <span className="sr-only">Your Company</span>

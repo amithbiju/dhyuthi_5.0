@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import file from "../assets/images/file.jpg";
+import logo from "../assets/images/logo.png";
 
 export const Fotter = () => {
   return (
@@ -12,7 +12,7 @@ export const Fotter = () => {
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <Image
-              src={file}
+              src={logo}
               alt=""
               loading="lazy"
               width="45"
@@ -21,7 +21,7 @@ export const Fotter = () => {
               data-nimg="1"
               className=" object-contain rounded-md"
             />
-            <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#8ef285] via-[#22ff05] to-[#095802] bg-clip-text text-transparent">
+            <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent">
               Dhyuthi 5.0
             </button>
           </a>
