@@ -4,6 +4,7 @@ import Event from "@/components/Event";
 import { Timer } from "@/components/Timer";
 import Venue from "@/components/Venue";
 
+
 export default function Home() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function Home() {
       <Event />
 
       <Venue />
+      
     </div>
   );
 }
