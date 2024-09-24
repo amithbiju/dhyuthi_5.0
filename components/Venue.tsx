@@ -18,22 +18,19 @@ const Venue = () => {
             // referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
 
-          <p>
-            <strong>Address: </strong> Sree Chitra Thirunal College of
+          <p className="py-">
+            <strong>📌</strong>    Sree Chitra Thirunal College of
             Engineering, Thiruvananthapuram
           </p>
 
-          <p>
-            <strong>Location: </strong> Thiruvananthapuram, Kerala
+          <p className="py-2">
+            <strong>📧</strong>    mailtoieeesctsb@gmail.com
           </p>
 
-          <p>
-            <strong>Pin: </strong> 695018
-          </p>
 
-          <p>
-            <strong>Phone: </strong>
-            <a href="tel:+918075496634">+91 7306702435</a>
+          <p className="py-2">
+            <strong>📞</strong>
+            <a href="tel:+918075496634">  Nandagopan G :  +91 7306702435</a>
           </p>
         </div>
       </div>

@@ -40,12 +40,12 @@ const Day3 = () => {
       event: "Game",
       description: "Fun games and activities for attendees.",
     },
-    {/*{
+    {
       id: 7,
       time: "5:30 pm - 6:30 pm",
       event: "Prize Distribution and Closing Ceremony",
       description: "Distribution of prizes followed by the closing ceremony.",
-    },*/}
+    },
   ];
 
   return (
