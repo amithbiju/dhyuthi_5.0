@@ -12,7 +12,7 @@ const Tracks = () => {
 
       <h2 className='mt-[-3rem] font-palanquin text-center text-5xl mb-10 font-bold bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent'>TRACKS</h2>
       
-      <h2 className='py-50 text-center'>COMING SOON...</h2>
+      <h2 className='py-80 text-center'>COMING SOON...</h2>
       {/*<div className='max-w-[1380px] mx-auto grid lg:grid-cols-3 gap-8'>
         <div className='w-full shadow-xl flex flex-col p-4 my-16 rounded-lg hover:scale-105 duration-300'>
             
