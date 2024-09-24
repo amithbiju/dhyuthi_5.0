@@ -2,7 +2,10 @@ import React from "react";
 
 const Venue = () => {
   return (
-    <div className="w-full flex justify-center items-center h-screen">
+    <div
+      id="page5"
+      className="w-full flex justify-center items-center h-screen"
+    >
       <div className="md:w-[70%] m-3">
         <h1 className="text-4xl w-full mb-12">Venue</h1>
         <div className="">
@@ -18,19 +21,18 @@ const Venue = () => {
             // referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
 
-          <p className="py-2">
+          <p className="py-">
             <strong>📌</strong>    Sree Chitra Thirunal College of
             Engineering, Thiruvananthapuram
           </p>
 
           <p className="py-2">
-            <strong>📧</strong>    mailtoieeesctsb@gmail.com
+            <strong>📧</strong> mailtoieeesctsb@gmail.com
           </p>
-
 
           <p className="py-2">
             <strong>📞</strong>
-            <a href="tel:+918075496634">  Nandagopan G :  +91 7306702435</a>
+            <a href="tel:+918075496634"> Nandagopan G : +91 7306702435</a>
           </p>
         </div>
       </div>
