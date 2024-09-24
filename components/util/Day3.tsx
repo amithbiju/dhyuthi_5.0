@@ -11,16 +11,16 @@ const Day3 = () => {
     },
     {
       id: 2,
-      time: "10:00 am - 10:15 am",
+      time: "10:00 am - 10:30 am",
       event: "Break",
       description: "Short break for refreshments.",
     },
     {
       id: 3,
-      time: "10:15 am - 12:30 pm",
-      event: "Influencer Talk Session",
+      time: "10:30 am - 12:30 pm",
+      event: "Workshop & Competitions",
       description:
-        "A talk session with influencers sharing insights and experiences.",
+        "An informative workshop and engaging competitions.",
     },
     {
       id: 4,
@@ -30,22 +30,22 @@ const Day3 = () => {
     },
     {
       id: 5,
-      time: "1:30 pm - 3:30 pm",
-      event: "Competition",
-      description: "Competitive events and challenges for the participants.",
+      time: "1:30 pm - 2:30 pm",
+      event: "Influencer Talk Session",
+      description: "A talk session with influencers sharing insights and experiences.",
     },
     {
       id: 6,
-      time: "3:30 pm - 5:30 pm",
+      time: "2:30 pm - 5:30 pm",
       event: "Game",
       description: "Fun games and activities for attendees.",
     },
-    {
+    {/*{
       id: 7,
       time: "5:30 pm - 6:30 pm",
       event: "Prize Distribution and Closing Ceremony",
       description: "Distribution of prizes followed by the closing ceremony.",
-    },
+    },*/}
   ];
 
   return (

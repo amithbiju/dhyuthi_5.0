@@ -30,19 +30,13 @@ const Day2 = () => {
     },
     {
       id: 5,
-      time: "3:30 pm - 5:30 pm",
+      time: "3:30 pm - 4:30 pm",
       event: "Game",
       description: "Fun and engaging activities for attendees.",
     },
     {
       id: 6,
-      time: "5:30 pm - 6:00 pm",
-      event: "Tea Break",
-      description: "Short break for refreshments.",
-    },
-    {
-      id: 7,
-      time: "6:00 pm - 9:00 pm",
+      time: "4:30 pm - 7:30 pm",
       event: "Culturals and Dinner",
       description: "Cultural performances followed by dinner.",
     },
