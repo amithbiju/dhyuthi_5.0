@@ -81,7 +81,19 @@ export const Navbar = () => {
             duration={500}
           >
             <button className="text-sm font-semibold leading-6 text-gray-100">
-              When
+              Schedule
+            </button>
+          </Link>
+          <Link
+            activeClass="active"
+            to="page5"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <button className="text-sm font-semibold leading-6 text-gray-100">
+              Contact
             </button>
           </Link>
           <Link
@@ -98,7 +110,10 @@ export const Navbar = () => {
           </Link>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-100">
+          <a
+            href="/track"
+            className="text-sm font-semibold leading-6 text-gray-100"
+          >
             Register Now<span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -211,13 +226,28 @@ export const Navbar = () => {
                   }}
                 >
                   <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
+                    Contact
+                  </button>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="page5"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
                     FAQs
                   </button>
                 </Link>
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href="/track"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700"
                 >
                   Register Now
