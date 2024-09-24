@@ -110,7 +110,10 @@ export const Navbar = () => {
           </Link>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-100">
+          <a
+            href="/track"
+            className="text-sm font-semibold leading-6 text-gray-100"
+          >
             Register Now<span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -244,7 +247,7 @@ export const Navbar = () => {
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href="/track"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700"
                 >
                   Register Now
