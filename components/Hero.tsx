@@ -14,7 +14,7 @@ const Hero = () => {
         </a>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
-            href="#"
+            href="/regi"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
             Register Now
@@ -47,11 +47,11 @@ const Hero = () => {
           </a>*/}
         </div>
         <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-          <span className="font-semibold text-gray-400 uppercase">
+          {/* <span className="font-semibold text-gray-400 uppercase">
             SPONSORS
-          </span>
+          </span> */}
           <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
-            <a
+            {/*<a
               href="#"
               className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
             >
@@ -150,7 +150,7 @@ const Hero = () => {
                   fill="currentColor"
                 />
               </svg>
-            </a>
+            </a>*/}
           </div>
         </div>
       </div>

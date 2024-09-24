@@ -81,7 +81,19 @@ export const Navbar = () => {
             duration={500}
           >
             <button className="text-sm font-semibold leading-6 text-gray-100">
-              When
+              Schedule
+            </button>
+          </Link>
+          <Link
+            activeClass="active"
+            to="page5"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <button className="text-sm font-semibold leading-6 text-gray-100">
+              Contact
             </button>
           </Link>
           <Link
@@ -197,6 +209,21 @@ export const Navbar = () => {
                 >
                   <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
                     When
+                  </button>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="page5"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
+                    Contact
                   </button>
                 </Link>
                 <Link
