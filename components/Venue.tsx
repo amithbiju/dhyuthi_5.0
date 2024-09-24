@@ -2,7 +2,10 @@ import React from "react";
 
 const Venue = () => {
   return (
-    <div className="w-full flex justify-center items-center h-screen">
+    <div
+      id="page5"
+      className="w-full flex justify-center items-center h-screen"
+    >
       <div className="md:w-[70%] m-3">
         <h1 className="text-4xl w-full mb-12">Venue</h1>
         <div className="">

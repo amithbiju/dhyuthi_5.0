@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../assets/images/logo.png";
+import { Link } from "react-scroll";
 
 export const Fotter = () => {
   return (
@@ -21,10 +22,12 @@ export const Fotter = () => {
               data-nimg="1"
               className=" object-contain rounded-md"
             />
+
             <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent">
               Dhyuthi 5.0
             </button>
           </a>
+
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0text-gray-400">
             <li>
               <a href="#" className="hover:underline me-4 md:me-6">

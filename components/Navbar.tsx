@@ -98,7 +98,7 @@ export const Navbar = () => {
           </Link>
           <Link
             activeClass="active"
-            to="page5"
+            to="page6"
             spy={true}
             smooth={true}
             offset={0}
@@ -211,7 +211,7 @@ export const Navbar = () => {
                   }}
                 >
                   <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
-                    When
+                    Shedule
                   </button>
                 </Link>
                 <Link
@@ -231,7 +231,7 @@ export const Navbar = () => {
                 </Link>
                 <Link
                   activeClass="active"
-                  to="page5"
+                  to="page6"
                   spy={true}
                   smooth={true}
                   offset={0}
