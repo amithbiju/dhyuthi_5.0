@@ -1,8 +1,4 @@
-import React from 'react'
-import Image from 'next/image'
-import single from '/assets/single.png'
-import double from '/assets/double.png'
-import triple from '/assets/triple.png'
+import React from 'react';
 
 const Tracks = () => {
   return (

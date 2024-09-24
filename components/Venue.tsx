@@ -33,7 +33,7 @@ const Venue = () => {
 
           <p>
             <strong>Phone: </strong>
-            <a href="tel:+918075496634">+91 8075496634</a>
+            <a href="tel:+918075496634">+91 7306702435</a>
           </p>
         </div>
       </div>
