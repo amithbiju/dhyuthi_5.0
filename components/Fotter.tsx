@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../assets/images/logo.png";
-import { Link } from "react-scroll";
 
 export const Fotter = () => {
   return (
