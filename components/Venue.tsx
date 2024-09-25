@@ -21,7 +21,7 @@ const Venue = () => {
             // referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
 
-          <p className="py-">
+          <p className="py-2">
             <strong>📌</strong>    Sree Chitra Thirunal College of
             Engineering, Thiruvananthapuram
           </p>
