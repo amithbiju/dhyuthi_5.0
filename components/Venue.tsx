@@ -66,6 +66,8 @@ const Venue = () => {
             <strong>📞</strong>
             <a href="tel:+918075496634"> Nandagopan G : +91 7306702435</a>
           </p> */}
+            <a href="tel:+917306702435"> Nandagopan G : +91 7306702435</a>
+          </p>
         </div>
       </div>
     </div>
