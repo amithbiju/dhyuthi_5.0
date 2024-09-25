@@ -32,7 +32,7 @@ const Venue = () => {
 
           <p className="py-2">
             <strong>📞</strong>
-            <a href="tel:+918075496634"> Nandagopan G : +91 7306702435</a>
+            <a href="tel:+917306702435"> Nandagopan G : +91 7306702435</a>
           </p>
         </div>
       </div>
