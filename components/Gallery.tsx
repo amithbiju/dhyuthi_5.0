@@ -21,7 +21,7 @@ const Gallery = () => {
           <div className="grid gap-4">
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg  hover:scale-105 duration-300"
                 src={dhyuthi1}
                 alt=""
                 width={500}
@@ -30,7 +30,7 @@ const Gallery = () => {
             </div>
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg hover:scale-105 duration-300"
                 src={dhyuthi2}
                 alt=""
                 width={500}
@@ -39,7 +39,7 @@ const Gallery = () => {
             </div>
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg hover:scale-105 duration-300"
                 src={dhyuthi3}
                 alt=""
                 width={500}
@@ -50,7 +50,7 @@ const Gallery = () => {
           <div className="grid gap-4">
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg hover:scale-105 duration-300"
                 src={dhyuthi4}
                 alt=""
                 width={500}
@@ -59,7 +59,7 @@ const Gallery = () => {
             </div>
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg hover:scale-105 duration-300"
                 src={dhyuthi5}
                 alt=""
                 width={500}
@@ -68,7 +68,7 @@ const Gallery = () => {
             </div>
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg hover:scale-105 duration-300"
                 src={dhyuthi6}
                 alt=""
                 width={500}
@@ -79,7 +79,7 @@ const Gallery = () => {
           <div className="grid gap-4">
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg hover:scale-105 duration-300"
                 src={dhyuthi7}
                 alt=""
                 width={500}
@@ -88,7 +88,7 @@ const Gallery = () => {
             </div>
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg hover:scale-105 duration-300"
                 src={dhyuthi8}
                 alt=""
                 width={500}
@@ -97,7 +97,7 @@ const Gallery = () => {
             </div>
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg hover:scale-105 duration-300"
                 src={dhyuthi9}
                 alt=""
                 width={500}
@@ -108,7 +108,7 @@ const Gallery = () => {
           <div className="grid gap-4">
             <div>
               <Image
-                className="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg hover:scale-105 duration-300"
                 src={dhyuthi10}
                 alt=""
                 width={500}
