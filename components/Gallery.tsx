@@ -14,7 +14,7 @@ import dhyuthi10 from "../Dhyuthi/gallery/dhyuthi10.jpg";
 
 const Gallery = () => {
   return (
-    <div id="page10" className="w-full flex justify-center items-center ">
+    <div id="page8" className="w-full flex justify-center items-center ">
       <div className="md:w-[80%] m-3 mt-12 justify-center items-center">
         <h2 className=" font-palanquin text-4xl mb-10 font-bold ">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

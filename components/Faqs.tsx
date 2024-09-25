@@ -10,7 +10,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-gray-800 text-white rounded-lg shadow-md my-4">
+    <div className="backdrop-blur-sm text-white rounded-lg shadow-md my-4">
       <div
         className="cursor-pointer flex justify-between items-center p-4 font-bold"
         onClick={() => setIsOpen(!isOpen)}
@@ -39,7 +39,7 @@ const Faqs = () => {
     {
       title: "Will I get certificates for participation?",
       content:
-        "Yes, participants will receive a workshop certificate and a competition certificate, each worth 30 KTU points, for the corresponding track they participate in.",
+        "Yes, participants will receive a workshop certificate and a competition certificate, 30 KTU points, for the corresponding track they participate in.",
     },
     {
       title: "Are meals included for participants during the event?",
@@ -53,9 +53,10 @@ const Faqs = () => {
   ];
 
   return (
-    <div className="container mx-auto p-8">
-      <h1 className="text-4xl text-center font-bold mb-8">FAQ</h1>
-      <div className="w-full max-w-3xl mx-auto">
+    <div id="page6" className="w-full flex justify-center items-center ">
+      <div className="md:w-[80%] m-3 mt-16 justify-center items-center">
+        <h2 className=" font-palanquin text-4xl mb-10 font-bold ">FAQs</h2>
+
         {items.map((item, index) => (
           <AccordionItem
             key={index}
