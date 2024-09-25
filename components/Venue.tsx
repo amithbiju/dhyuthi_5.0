@@ -18,19 +18,40 @@ const Venue = () => {
             // referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
 
-          <p className="py-">
-            <strong>📌</strong>    Sree Chitra Thirunal College of
-            Engineering, Thiruvananthapuram
-          </p>
-
-          <p className="py-2">
-            <strong>📧</strong> mailtoieeesctsb@gmail.com
-          </p>
-
-          <p className="py-2">
-            <strong>📞</strong>
-            <a href="tel:+918075496634"> Nandagopan G : +91 7306702435</a>
-          </p> */}
+          <div className="backdrop-blur-sm text-white p-6 rounded-lg">
+            <div className="mb-6">
+              <h2 className="flex items-center text-lg font-bold">
+                <span className="text-orange-500 mr-2">📍</span>
+                Address
+              </h2>
+              <p>
+                NH 66, CTO Colony, Pappanamcode, Thiruvananthapuram, Kerala
+                695018
+              </p>
+            </div>
+            <div className="mb-6">
+              <h2 className="flex items-center text-lg font-bold">
+                <span className="text-orange-500 mr-2">✉️</span>
+                Email
+              </h2>
+              <a
+                href="mailto:ieeectsctsb@gmail.com"
+                className="text-white hover:underline"
+              >
+                ieeectsctsb@gmail.com
+              </a>
+            </div>
+            <div>
+              <h2 className="flex items-center text-lg font-bold">
+                <span className="text-orange-500 mr-2">📞</span>
+                Call
+              </h2>
+              <p className="pt-2">Nandagopan G</p>
+              <a href="tel:+917306702435"> +91 7306702435</a>
+              <p className="pt-2">Geethu S Santhosh</p>
+              <a href="tel:+918075298464"> +91 8075298464</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
