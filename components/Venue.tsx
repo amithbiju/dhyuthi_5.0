@@ -2,12 +2,9 @@ import React from "react";
 
 const Venue = () => {
   return (
-    <div
-      id="page5"
-      className="w-full flex justify-center items-center h-screen"
-    >
-      <div className="md:w-[70%] m-3">
-        <h1 className="text-4xl w-full mb-12">Venue</h1>
+    <div id="page5" className="w-full flex justify-center items-center ">
+      <div className="md:w-[80%] m-3 mt-8">
+        <h2 className=" font-palanquin text-4xl mb-10 font-bold ">Venue</h2>
         <div className="">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1087.1118851564481!2d76.97857658187175!3d8.470231553187036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05baee56e6b99b%3A0x4ce024c88eb0ddcb!2sSree%20Chitra%20Thirunal%20College%20of%20Engineering%2C%20Thiruvananthapuram!5e0!3m2!1sen!2sin!4v1711636446051!5m2!1sen!2sin"
@@ -21,7 +18,42 @@ const Venue = () => {
             // referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
 
-          <p className="py-2">
+          <div className="backdrop-blur-sm text-white p-6 rounded-lg">
+            <div className="mb-6">
+              <h2 className="flex items-center text-lg font-bold">
+                <span className="text-orange-500 mr-2">📍</span>
+                Address
+              </h2>
+              <p>
+                NH 66, CTO Colony, Pappanamcode, Thiruvananthapuram, Kerala
+                695018
+              </p>
+            </div>
+            <div className="mb-6">
+              <h2 className="flex items-center text-lg font-bold">
+                <span className="text-orange-500 mr-2">✉️</span>
+                Email
+              </h2>
+              <a
+                href="mailto:ieeectsctsb@gmail.com"
+                className="text-white hover:underline"
+              >
+                ieeectsctsb@gmail.com
+              </a>
+            </div>
+            <div>
+              <h2 className="flex items-center text-lg font-bold">
+                <span className="text-orange-500 mr-2">📞</span>
+                Call
+              </h2>
+              <p className="pt-2">Nandagopan G</p>
+              <a href="tel:+918075496634">+91 7306702435</a>
+              <p className="pt-2">Geethu S Santhosh</p>
+              <a href="tel:+918075298464">+91 8075298464</a>
+            </div>
+          </div>
+
+          {/* <p className="py-2">
             <strong>📌</strong> Sree Chitra Thirunal College of Engineering,
             Thiruvananthapuram
           </p>
@@ -33,7 +65,7 @@ const Venue = () => {
           <p className="py-2">
             <strong>📞</strong>
             <a href="tel:+918075496634"> Nandagopan G : +91 7306702435</a>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

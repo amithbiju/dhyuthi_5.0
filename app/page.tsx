@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import Event from "@/components/Event";
 import { Timer } from "@/components/Timer";
 import Venue from "@/components/Venue";
-
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -12,9 +12,8 @@ export default function Home() {
       <About />
       <Timer />
       <Event />
-
+      <Gallery />
       <Venue />
-      
     </div>
   );
 }
