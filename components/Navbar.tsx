@@ -60,7 +60,7 @@ export const Navbar = () => {
               Tracks
             </button>
           </Link>
-          <Link
+          {/* <Link
             activeClass="active"
             to="page3"
             spy={true}
@@ -71,7 +71,7 @@ export const Navbar = () => {
             <button className="text-sm font-semibold leading-6 text-gray-100">
               Events
             </button>
-          </Link>
+          </Link> */}
           <Link
             activeClass="active"
             to="page4"
@@ -86,14 +86,14 @@ export const Navbar = () => {
           </Link>
           <Link
             activeClass="active"
-            to="page5"
+            to="page8"
             spy={true}
             smooth={true}
             offset={0}
             duration={500}
           >
             <button className="text-sm font-semibold leading-6 text-gray-100">
-              Contact
+              Gallery
             </button>
           </Link>
           <Link
@@ -106,6 +106,18 @@ export const Navbar = () => {
           >
             <button className="text-sm font-semibold leading-6 text-gray-100">
               FAQs
+            </button>
+          </Link>
+          <Link
+            activeClass="active"
+            to="page5"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <button className="text-sm font-semibold leading-6 text-gray-100">
+              Contact
             </button>
           </Link>
         </PopoverGroup>
@@ -184,7 +196,7 @@ export const Navbar = () => {
                     Tracks
                   </button>
                 </Link>
-                <Link
+                {/* <Link
                   activeClass="active"
                   to="page3"
                   spy={true}
@@ -198,7 +210,7 @@ export const Navbar = () => {
                   <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
                     Events
                   </button>
-                </Link>
+                </Link> */}
                 <Link
                   activeClass="active"
                   to="page4"
@@ -211,12 +223,12 @@ export const Navbar = () => {
                   }}
                 >
                   <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
-                    Shedule
+                    Schedule
                   </button>
                 </Link>
                 <Link
                   activeClass="active"
-                  to="page5"
+                  to="page8"
                   spy={true}
                   smooth={true}
                   offset={0}
@@ -226,7 +238,7 @@ export const Navbar = () => {
                   }}
                 >
                   <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
-                    Contact
+                    Gallery
                   </button>
                 </Link>
                 <Link
@@ -242,6 +254,21 @@ export const Navbar = () => {
                 >
                   <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
                     FAQs
+                  </button>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="page5"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
+                    Contact
                   </button>
                 </Link>
               </div>

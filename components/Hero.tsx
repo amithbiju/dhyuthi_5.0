@@ -8,7 +8,7 @@ const Hero = () => {
           Dhyuthi 5.0
         </h1>
         <a className="inline-flex justify-between items-center mt-8 py-1 px-1 pr-4 mb-7 text-sm  rounded-full text-white bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d]">
-          <span className="text-sm font-medium">
+          <span className="text-xl font-medium">
             The flagship event of IEEE SCT SB
           </span>
         </a>
