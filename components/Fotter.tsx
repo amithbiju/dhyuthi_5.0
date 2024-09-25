@@ -31,7 +31,7 @@ export const Fotter = () => {
             <h3 className="text-lg font-semibold text-white">
               Connect with us
             </h3>
-            <div className="mt-4 flex justify-left space-x-12">
+            <div className="mt-4 flex justify-left space-x-6">
               <a
                 href="https://ieeesctsb.org/"
                 className="text-white hover:text-gray-300"
