@@ -47,7 +47,7 @@ const Venue = () => {
                 Call
               </h2>
               <p className="pt-2">Nandagopan G</p>
-              <a href="tel:+918075496634">+91 7306702435</a>
+              <a href="tel:+917306702435">+91 7306702435</a>
               <p className="pt-2">Geethu S Santhosh</p>
               <a href="tel:+918075298464">+91 8075298464</a>
             </div>
