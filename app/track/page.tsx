@@ -43,11 +43,10 @@ const Tracks = () => {
             <div className='text-center font-medium'>
                 <p className='text-justify py-2 border-b mx-8 mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>*/}
-            <a href="https://forms.gle/Wy2HSDJEvRG9dXgP7">
-              <button className="bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
-                Register now
-              </button>
-            </a>
+
+            <button className="bg-gradient-to-r from-[#d04848] via-[#972929] to-[#9e0101] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white">
+              Registation Closed
+            </button>
           </div>
 
           <div className="w-full shadow-xl flex flex-col p-4 my-16 rounded-lg hover:scale-105 duration-300">
@@ -62,11 +61,9 @@ const Tracks = () => {
             <div className='text-center font-medium'>
                 <p className='text-justify py-2 border-b mx-8 mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>*/}
-            <a href="https://bit.ly/dhyuthi_ignitia">
-              <button className="bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
-                Register now
-              </button>
-            </a>
+            <button className="bg-gradient-to-r from-[#d04848] via-[#972929] to-[#9e0101] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white">
+              Registation Closed
+            </button>
           </div>
         </div>
 
