@@ -24,7 +24,7 @@ const About = () => {
         </div>
         <div className="flex m-5 flex-1 flex-col">
           <h2 className="font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start ">
-            About Dhyuthi
+            About Dhyuthi 2024
           </h2>
           <p className="mt-4 lg:max-w-lg font-montserrat text-slate-gray text-lg leading-7 text-justify text-[#bbbcbc]">
             {about_event}
