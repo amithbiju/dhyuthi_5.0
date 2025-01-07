@@ -9,7 +9,7 @@ const Hero = () => {
         </h1>
         <a className="inline-flex justify-between items-center mt-8 py-1 px-1 pr-4 mb-7 text-sm  rounded-full text-white bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d]">
           <span className="text-xl font-medium">
-            The flagship event of IEEE SCT SB
+            The flagship event of IEEE SCT SB is back
           </span>
         </a>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
